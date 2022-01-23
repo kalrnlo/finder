@@ -1,0 +1,9 @@
+[package]
+name = "7kayoh/finder"
+description = "Find Instances with conditions, and perform action on them!"
+license = "MIT"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
