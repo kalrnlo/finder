@@ -1,4 +1,4 @@
-export type Condition = (object: Instance) -> (boolean)
+export type Condition = (index: any, object: Instance) -> (boolean)
 export type Behavior = (result: {Instance}) -> ()
 
 local Finder = { Templates = {} }

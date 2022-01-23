@@ -25,7 +25,7 @@ Returns the specified template. If the category or the template name does not ex
 local Finder = {
     Templates = {
         CategoryName = {
-            TemplateName: Condition = function(object: Instance): boolean
+            TemplateName: Condition = function(value: any, object: Instance): boolean
                 return object ~= nil
             end
         }
@@ -35,6 +35,6 @@ local Finder = {
 
 ## Types
 ```lua
-export type Condition = (object: Instance) -> (boolean)
+export type Condition = (value: any, object: Instance) -> (boolean)
 export type Behavior = (result: {Instance}) -> ()
 ```
