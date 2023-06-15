@@ -1,6 +1,6 @@
 # Finder
 
-Find Instances with conditions, and perform action on them!
+Find Instances with conditions, and perform actions on them!
 
 ## API Reference
 
